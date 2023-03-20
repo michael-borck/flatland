@@ -10,7 +10,7 @@ function clicked() {
     words.innerHTML = "Build a<br>" +createBuzzwordPhrase();
 }
 
-square.addEventListener('click', (event) => changeColour('green'));
+square.addEventListener('click', (event) => clicked());
 
 /* create hover effect */
 square.addEventListener('mouseover', (event) => changeColour('grey'));
